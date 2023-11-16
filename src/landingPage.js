@@ -46,21 +46,24 @@ const LandingPage = () => {
                                 type="video/mp4"
                             />
                         </video>
-                        <img class="md:hidden w-full h-80" src="https://hd.wallpaperswide.com/thumbs/nier_automata_2b-t2.jpg"></img>
+                        <img class="md:hidden w-full h-full " src="https://w0.peakpx.com/wallpaper/857/715/HD-wallpaper-video-game-art-artwork-nier-automata-2b-nier-automata-thumbnail.jpg"></img>
                         <div class="absolute top-0 mt-8 md:mt-28 m-auto w-full h-full flex flex-col items-center justify-center">
-                            <div class="absolute top-0 m-auto w-full h-full flex flex-col items-center justify-center">
+                            <div class="absolute top-0 pt-32 sm:pt-0 m-auto w-full h-full flex flex-col items-center justify-center">
                                 <button id="button-play-yt" onClick={openModal} class="flex items-center justify-center ">
-                                    <img class="animate-spin-slow grayscale absolute w-14 md:w-40 h-auto" src="https://drive.google.com/uc?export=view&id=1fiueiJ3QMjF_V8ySzW5qAF-XP7ARo6h7"></img>
+                                    <img 
+                                    class="animate-spin-slow grayscale absolute w-32 sm:w-14 md:w-40 h-auto" 
+                                    src="https://drive.google.com/uc?export=view&id=1fiueiJ3QMjF_V8ySzW5qAF-XP7ARo6h7"
+                                    alt="spinning-gear"></img>
                                     <img
                                         src="https://drive.google.com/uc?export=view&id=1Jjfa2F4vnZo0XMCtok-gpR-eFsAMvbwF"
-                                        class="w-10 md:w-24 h-auto opacity-70 hover:opacity-100"
+                                        class="w-20 sm:w-10 md:w-24 h-auto opacity-70 hover:opacity-100"
                                         alt="Play Icon"
                                     />
                                 </button>
                                 <br></br>
                                 <img
                                     src="https://drive.google.com/uc?export=view&id=18KtuitIcNHV0uJeNO-U54QUGBmLKqaYf"
-                                    class="w-1/4 md:w-1/3 h-auto"
+                                    class="w-2/3 sm:w-1/4 md:w-1/3 h-auto"
                                     alt="Nier Icon"
                                 />
                             </div>

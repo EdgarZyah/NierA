@@ -8,6 +8,9 @@ module.exports = {
       './public/index.html',
     ],
     extend: {
+      transitionDuration: {
+        '3000': '3000ms',
+      },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
       },
