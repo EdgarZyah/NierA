@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './navbar';
 const Profile = () => {
     const backgroundGameImageUrl = 'https://npr.brightspotcdn.com/dims4/default/903ae17/2147483647/strip/true/crop/2560x1344+0+52/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2Fd5%2Fadf891804f04ad3d7295aa5029d3%2Fnier-automata-wide-ost-cover.jpeg';
@@ -8,7 +8,9 @@ const Profile = () => {
         height: '100vh',
         backgroundSize: 'cover',
     };
-
+    useEffect(() => {
+        document.title = 'Nier_Automata';
+      }, []);
     return (
         <div style={hero1} className="relative bg-cover bg-center h-full items-center justify-center text-white">
             <header id="header" className="absolute inset-x-0 top-0 z-50">

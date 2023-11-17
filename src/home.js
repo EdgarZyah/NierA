@@ -26,7 +26,9 @@ const Home = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-
+    useEffect(() => {
+        document.title = 'Nier_Automata';
+    }, []);
     function smoothScrollTo(targetId) {
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
@@ -73,7 +75,6 @@ const Home = () => {
                 mousewheel={{ forceToAxis: true }}
                 modules={[Pagination, Mousewheel]}
                 className={'mySwiper hidden md:block'}
-                style={{ height: '100vh' }}
             >
                 <SwiperSlide>
                     <header id="header" className="absolute inset-x-0 top-0 z-50">
